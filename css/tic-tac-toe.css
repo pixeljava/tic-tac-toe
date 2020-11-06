@@ -1,31 +1,45 @@
-#game, #debug {
-    float: left;
-  }
-  #board {
-    width: 85vh;
-    height: 85vh;
-    font-family: sans-serif;
-    margin: 0 10px 0 0;
-  }
-  #messageBox {
-    height: 6vh;
-    width: 78vh;
-    padding: 2vh;
-    margin: 0;
-    background-color: rgb(228,228,228);
-    font-family: sans-serif;
-  }
-  .spot {
-    width: 27vh;
-    height: 27vh;
-    margin: 0;
-    float: left;
-    border: 1px solid black;
-    border-collapse: collapse;
-    font-size: 24vh;
-    display: block;
-    margin: 0 auto;
-    vertical-align: middle;
-    text-align: center;
-    cursor: pointer;
-  }
+#game {
+  width: 100%;
+}
+#board {
+  width: 75vmin;
+  height: 75vmin;
+  margin: 0 auto;
+  padding: 0;
+  font-family: sans-serif;
+}
+#message {
+  clear: left;
+  border: 1px solid black;
+  background-color: rgb(228, 246, 255);
+  font-family: sans-serif;
+  font-size: 4vh;
+  display: block;
+  padding: 2vh;
+}
+#resetButton {
+  height: 6vmin;
+  width: 20vmin;
+  margin: 1vmin auto;
+  clear: left;
+  background-color: rgb(238, 147, 119);
+  font-size: 5vmin;
+  text-align: center;
+  border-radius: 1vmin;
+  cursor: pointer;
+}
+.spot {
+  width: 33%;
+  height: 33%;
+  margin: 0;
+  float: left;
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 22vmin;
+  margin: 0 auto;
+  text-align: center;
+  cursor: pointer;
+}
+.first {
+  clear: left;
+}

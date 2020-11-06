@@ -2,6 +2,8 @@
 /* Mapped Page Elements */
 //////////////////////////
 const elMessage = document.getElementById('message'); // The message element
+const elResetButton = document.getElementById('resetButton'); // The resetButton element
+elResetButton.addEventListener('click', resetGame);
 
 ////////////////////
 /* Game Variables */
@@ -34,16 +36,6 @@ winConditions[5] = ['r1c3', 'r2c3', 'r3c3'];
 /* Diagonal Win Conditions */
 winConditions[6] = ['r1c1', 'r2c2', 'r3c3'];
 winConditions[7] = ['r1c3', 'r2c2', 'r3c1'];
-
-////////////////
-/* Debug Code */
-////////////////
-/*
-const elDebugInfo = document.getElementById("debugInfo"); // The debugInfo element
-const updateDebug = function() {
-  elDebugInfo.innerHTML = `allSpots: ${JSON.stringify(allSpots, null, 4)}`;
-};
-*/
 
 /////////////////////////
 /* Game Play Functions */
@@ -119,13 +111,6 @@ function clickSpot(attrSpot) {
   /* If 5 or more moves have been made check to see if either player has won. */
   /* This is done mainly to less resource intensive. */
   numMoves >= 5 ? checkWinner() : false;
-
-  ///////////////////
-  // Start Debug   //
-  // updateDebug();//
-  // End Debug     //
-  ///////////////////
-
 }
 
 /* compareThings compares the three values within a WinCondition */
@@ -150,9 +135,7 @@ function checkWinner() {
   /* If a winning player has been found we end the game. */
   if (winningPlayer) {
     removeClickHandlers(); // Disable clicks on all of the remaining spots...
-    elMessage.innerHTML = `Game Over! ${winningPlayer} is the winner!
-        <button onclick="resetGame();">Reset</button>`;
-    // Display a message with a reset button.
+    elMessage.innerHTML = `Game Over! ${winningPlayer} is the winner!`; // Display a message with a reset button.
   }
 }
 
@@ -188,10 +171,4 @@ function resetGame() {
   chooseFirst();
   /* Finally, reset all of the click eventListeners. */
   setClickHandlers();
-
-  ///////////////////
-  // Start Debug   //
-  // updateDebug();//
-  // End Debug     //
-  ///////////////////
 }
