@@ -17,7 +17,7 @@ At the moment this project is being solely maintained by Jeremy Penning.
 Any modern web browser should do!
 
 ### Deploying / Publishing
-Download or fork and open tic-tac-toe in your browser. It's that simple.
+Download or fork and open tic-tac-toe.html in your browser. It's that simple.
 
 ## Licensing
 GNU General Public License v3.0
