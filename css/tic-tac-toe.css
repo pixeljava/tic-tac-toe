@@ -1,0 +1,31 @@
+#game, #debug {
+    float: left;
+  }
+  #board {
+    width: 85vh;
+    height: 85vh;
+    font-family: sans-serif;
+    margin: 0 10px 0 0;
+  }
+  #messageBox {
+    height: 6vh;
+    width: 78vh;
+    padding: 2vh;
+    margin: 0;
+    background-color: rgb(228,228,228);
+    font-family: sans-serif;
+  }
+  .spot {
+    width: 27vh;
+    height: 27vh;
+    margin: 0;
+    float: left;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 24vh;
+    display: block;
+    margin: 0 auto;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+  }
