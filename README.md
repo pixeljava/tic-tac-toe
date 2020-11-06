@@ -14,7 +14,7 @@ At the moment this project is being solely maintained by Jeremy Penning.
 ## Development
 
 ### Prerequisites
-Any modern web
+Any modern web browser should do!
 
 ### Deploying / Publishing
 Download or fork and open tic-tac-toe in your browser. It's that simple.
