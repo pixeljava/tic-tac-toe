@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# tic-tac-toe
-A pure JS/CSS/HTML game of Tic-Tac-Toe
-=======
-=======
->>>>>>> 65c051d... Initial commit
 ![GitHub language count](https://img.shields.io/github/languages/count/pixeljava/tic-tac-toe) ![GitHub top language](https://img.shields.io/github/languages/top/pixeljava/tic-tac-toe) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/your/your-project/blob/master/LICENSE)
 # A pure JS/CSS/HTML game of Tic-Tac-Toe
 
@@ -24,11 +17,3 @@ Download or fork and open tic-tac-toe.html in your browser. It's that simple.
 
 ## Licensing
 GNU General Public License v3.0
-<<<<<<< HEAD
->>>>>>> 8866770... Create README.md
-=======
-=======
-# tic-tac-toe
-A pure JS/CSS/HTML game of Tic-Tac-Toe
->>>>>>> ca48a69... Initial commit
->>>>>>> 65c051d... Initial commit
